@@ -1,0 +1,56 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: darkcyan;
+  background: hsl(185, 75%, 39%);
+}
+
+
+.info-box {
+  width: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  background: linear-gradient(to bottom, turquoise 100px, white 100px);
+  padding-top: 50px;
+  border-radius: 5%;
+}
+
+.vic-pic {
+  text-align: center;
+}
+
+.victor-img {
+  border-radius: 50%;
+  border: solid 5px white;
+}
+
+.namebox {
+  text-align: center;
+}
+
+hr {
+  border-style: solid none none none;
+  border-color: lightgray;
+}
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 0;
+    table-layout: fixed;
+  }
+
+  th {
+    padding: 0 20px 5px 20px;
+    width: 33.33%;
+  }
+
+  td {
+    font-size: 12px;
+    text-align: center;
+    width: 33.33%;
+    color: darkgray;
+    color: hsl(0, 0%, 59%);
+  }
